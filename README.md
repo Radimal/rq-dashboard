@@ -113,9 +113,6 @@ If you start the Flask app on the default port, you can access the
 dashboard at <http://localhost:5000/rq>. The `cli.py:main` entry point
 provides a simple working example.
 
-The jobs list endpoint skips corrupt or missing jobs and includes
-``corrupt_jobs_count`` in the JSON response.
-
 Running on Heroku
 -----------------
 

@@ -113,9 +113,6 @@ If you start the Flask app on the default port, you can access the
 dashboard at <http://localhost:5000/rq>. The `cli.py:main` entry point
 provides a simple working example.
 
-The blueprint returns 404 for missing or expired jobs (``NoSuchJobError``) and
-409 for corrupt job data (``DeserializationError``) instead of 500.
-
 Running on Heroku
 -----------------
 
